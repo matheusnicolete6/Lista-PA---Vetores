@@ -13,12 +13,12 @@ public class Intersecao {
         c = new int [TAM];
 
         for (i = 0; i < TAM; i++) {
-            System.out.println("Digite o " + (i + 1) + "บ valor de A:");
+            System.out.println("Digite o " + (i + 1) + "ยบ valor de A:");
             a[i] = in.nextInt();
         }
 
         for (i = 0; i < TAM; i++) {
-            System.out.println("Digite o " + (i + 1) + "บ valor de B:");
+            System.out.println("Digite o " + (i + 1) + "ยบ valor de B:");
             b[i] = in.nextInt();
         }
 
@@ -27,7 +27,6 @@ public class Intersecao {
                 if (a[i] == b[j]) {
                     c[k] = a[i];
                     k++;
-                    break;
                 }
             }
         }
