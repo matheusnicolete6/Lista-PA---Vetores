@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Pares {
 
 	public static void main(String[] args) {
-		final int TAM = 3;
+		final int TAM = 10;
 		int a[], i, j;
 		a = new int [TAM];
 		Scanner in = new Scanner (System.in);
 		
 		for(i=0; i<TAM; i++) {
-			System.out.println("Digite para descobrir quantos pares existem até o valor");
+			System.out.println("Digite para descobrir quantos pares existem atÃ© o valor");
 			a[i] = in.nextInt();
 		}
 		
