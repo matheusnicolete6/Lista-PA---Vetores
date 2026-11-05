@@ -6,14 +6,14 @@ public class ParImpar {
 
 	public static void main(String[] args) {
 		int a[], b[], i, j;
-		final int TAM=10;
+		final int TAM=20;
 		a = new int [TAM];
 		b = new int [TAM];
 		
 		j=0;
 		Scanner in = new Scanner (System.in);
 		for(i = 0; i < TAM; i++) {
-			System.out.println("Digite o " + (i + 1) + "บ valor de A");
+			System.out.println("Digite o " + (i + 1) + "ยบ valor de A");
 			a[i] = in.nextInt();
 			
 			if(a[i] % 2 == 0) {
